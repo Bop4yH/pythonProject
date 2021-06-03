@@ -10,7 +10,7 @@ from loss import mse
 from activate import sigmoid, derivative_sigmoid
 
 
-with open('ready_data.csv') as file:
+with open('ID_data_mass_18122012.csv') as file:
     reader = csv.reader(file, delimiter=';')
     data = list(reader)[1:]
 
